@@ -29,7 +29,11 @@ section {
   background-color: #f8f0fb;
 }
 
-img:not(#logo) {
+#logo {
+  border: unset;
+}
+
+img {
   border: 5px solid #8075ff;
 }
 
@@ -116,13 +120,24 @@ footer {
 
 
 
-.image-container img:not(#logo) {
+.image-container {
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: unset;
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  vertical-align: top;
+  border: 10px solid purple;
+}
+
+.image-container img:nth-of-type(2) {
+  vertical-align: top;
+  border: 10px solid green;
+}
+
+.image-container img:nth-of-type(3) {
+  vertical-align: top;
+  border: 10px solid blue;
 }
 
 .tigers {
