@@ -91,13 +91,17 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 
 #badge:hover {
@@ -109,6 +113,8 @@ footer {
   font-size: 125%;
   margin-bottom: auto;
 }
+
+
 
 .image-container img:not(#logo) {
   vertical-align: top;
@@ -174,6 +180,8 @@ footer {
   display: inline-block;
   margin-bottom: 10px;
 }
+
+
 
 /*Education*/
 
