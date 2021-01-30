@@ -119,6 +119,10 @@ footer {
   color: #f0e100;
 }
 
+.tigers h2{
+  color: #BEEE62;
+}
+
 .giraffe {
   background-color: #483C46;
   color: #BEEE62;
@@ -126,6 +130,19 @@ footer {
 
 .giraffe h2,h3 {
   color: #F4743B;
+}
+
+.giraffe p:nth-of-type(1){
+  font-size: larger;
+}
+
+.news h2{
+  text-align: center;
+}
+
+.membership p{
+  width: 700px;
+  margin: auto;
 }
 
 .card {
